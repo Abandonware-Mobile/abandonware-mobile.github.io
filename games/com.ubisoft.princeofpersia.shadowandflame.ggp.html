@@ -5,20 +5,38 @@
         <meta charset="UTF-8">
         <meta name="keywords" content="Abandonware, Abandonware Mobile, Jeu Mobile, Android">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="imgs/icon.ico" />
-        <link rel="stylesheet" href="css/navbar.css">
+        <link rel="shortcut icon" href="../imgs/icon.ico" />
+        <link rel="stylesheet" href="../css/navbar.css">
+        <link rel="stylesheet" href="../css/com.ubisoft.princeofpersia.shadowandflame.ggp.css">
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-        <title>Abandonware Mobile</title>
+        <script type="text/javascript">
+            function isMobileDevice() { 
+                if( navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)
+                ){
+                alert("Votre appareil n'est pas compatible");
+                } else {
+                return false;
+                }
+            }
+        </script>
+        <title>Prince of Persia Shadow & Flame</title>
     </head>
 
-    <body>
+    <body onload="isMobileDevice()">
+
         <nav class="sidebar">
             <div class="menu-bar">
                 <div class="menu">
                     <ul class="menu-links">
 
                         <li class="nav-link">
-                            <a href="#">
+                            <a href="../index.html">
                                 <i class="fi fi-rr-home icon" ></i>
                             </a>
                         </li>
@@ -30,7 +48,7 @@
                         </li>
     
                         <li class="nav-link">
-                            <a href="games/com.ubisoft.princeofpersia.shadowandflame.ggp.html">
+                            <a href="#">
                                 <i class="fi fi-rr-apps icon"></i>
                             </a>
                         </li>
@@ -56,5 +74,15 @@
                 </div>
             </div>
         </nav>
+
+        <div class="card">
+            <div class="game-img-div">
+                <img class="game-img" src="../imgs/com.ubisoft.princeofpersia.shadowandflame.ggp.png">
+            </div>
+
+            <div class="game-name-div">
+                <h1 class="game-name">Prince of Persia : The Shadow and the Flame</h1>
+            </div>
+        </div>
     </body>
 </html>
