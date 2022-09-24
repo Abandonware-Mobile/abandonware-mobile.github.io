@@ -8,10 +8,27 @@
         <link rel="shortcut icon" href="imgs/icon.ico" />
         <link rel="stylesheet" href="css/navbar.css">
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+        <script type="text/javascript">
+            var intervalID = window.setInterval(isMobileDevice, 5000);
+            function isMobileDevice() { 
+                if( navigator.userAgent.match(/iPhone/i)
+                || navigator.userAgent.match(/webOS/i)
+                || navigator.userAgent.match(/Android/i)
+                || navigator.userAgent.match(/iPad/i)
+                || navigator.userAgent.match(/iPod/i)
+                || navigator.userAgent.match(/BlackBerry/i)
+                || navigator.userAgent.match(/Windows Phone/i)
+                ){
+                alert("Votre appareil n'est pas compatible");
+                } else {
+                return false;
+                }
+            }
+        </script>
         <title>Abandonware Mobile</title>
     </head>
 
-    <body>
+    <body onload="isMobileDevice()">
         <nav class="sidebar">
             <div class="menu-bar">
                 <div class="menu">
