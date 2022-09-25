@@ -1,32 +1,119 @@
+body{
+    overflow-y: scroll;
+    user-select: none;
+}
+
 .card{
     position: fixed;
     border-radius: 10px;
     background-color: #FFF;
-    left: 250px;
-    right: 162px;
+    width: 975px;
+    transform: translateX(-50%);
+    left: 50%;
     top: 32px;
     bottom: 32px;
 }
 
-.game-img-div{
+.game-icon-div{
     position: absolute;
     top: 20px;
     left: 20px;
 }
 
-.game-img{
+.game-icon{
     width: 256px;
     height: 256px;
 }
 
-.game-name-div{
+.game-logo-div{
     position: absolute;
     top: 30px;
     left: 296px;
 }
 
-.game-name{
-    color: #464646;
-    font-size: 50px;
-    text-shadow: 2px 2px 3px #464646;
+.game-logo{
+    width: 650px;
+    height: 161px;
+}
+
+.download-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-width: 60px;
+    min-height: 50px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    top: 210px;
+    left: 296px;
+    background-color: #E4E9F7;
+}
+
+.share-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-width: 60px;
+    min-height: 50px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    top: 210px;
+    left: 376px;
+    background-color: #E4E9F7;
+}
+
+.playstore-btn{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 456px;
+    border-radius: 6px;
+    background-color: #E4E9F7;
+}
+
+.appstore-btn{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 526px;
+    border-radius: 6px;
+    background-color: #E4E9F7;
+}
+
+.appstore-btn .icon,
+.playstore-btn .icon{
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.share-btn .icon,
+.download-btn .icon{
+    color: #707070;
+    font-size: 20px;
+}
+
+.share-btn:hover,
+.download-btn:hover{
+    background-color: #40BC86;
+    cursor: pointer;
+}
+
+.appstore-btn:hover .icon,
+.playstore-btn:hover .icon{
+    opacity: 1;
+}
+
+.appstore-btn:hover .icon,
+.playstore-btn:hover .icon,
+.share-btn:hover .icon,
+.download-btn:hover .icon{
+    color: #FFF;
 }
