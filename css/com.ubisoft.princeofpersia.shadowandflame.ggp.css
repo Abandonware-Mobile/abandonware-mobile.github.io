@@ -4,11 +4,11 @@ body{
 }
 
 .card{
-    position: fixed;
+    position: absolute;
     border-radius: 10px;
     background-color: #FFF;
     width: 975px;
-    height: 615px;
+    height: 625px;
     transform: translateX(-50%);
     left: 50%;
     top: 32px;
