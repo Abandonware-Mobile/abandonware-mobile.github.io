@@ -133,3 +133,11 @@ body{
 #trailer:hover{
     cursor: pointer;
 }
+
+.options-list ul li{
+    position: relative;
+    list-style: none;
+    display: table;
+    top: 290px;
+    left: 600px;
+}
