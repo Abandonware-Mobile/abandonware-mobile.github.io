@@ -123,13 +123,13 @@ body{
     color: #FFF;
 }
 
-video{
+#trailer{
     position: absolute;
     top: 290px;
     left: 20px;
     border-radius: 6px;
 }
 
-video:hover{
+#trailer:hover{
     cursor: pointer;
 }
