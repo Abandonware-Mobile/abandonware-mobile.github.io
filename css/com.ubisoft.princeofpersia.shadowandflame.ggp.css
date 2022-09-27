@@ -8,10 +8,10 @@ body{
     border-radius: 10px;
     background-color: #FFF;
     width: 975px;
+    height: 615px;
     transform: translateX(-50%);
     left: 50%;
     top: 32px;
-    bottom: 32px;
 }
 
 .game-icon-div{
@@ -121,4 +121,15 @@ body{
 .share-btn:hover .icon,
 .download-btn:hover .icon{
     color: #FFF;
+}
+
+video{
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    border-radius: 6px;
+}
+
+video:hover{
+    cursor: pointer;
 }

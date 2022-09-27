@@ -105,6 +105,21 @@
                 <img class="icon" src="../imgs/icon/amazon-appstore.png" />
             </a>
 
+            <video id="trailer" onclick="playPause()" width="560" height="315" autoplay muted>
+                <source src="../videos/com.ubisoft.princeofpersia.shadowandflame.ggp.mp4" type="video/mp4">
+            </video>
+
+            <script> 
+                var video = document.getElementById("trailer"); 
+                
+                function playPause() { 
+                  if (video.paused) 
+                    video.play(); 
+                  else 
+                    video.pause(); 
+                } 
+            </script>
+
         </div>
     </body>
 </html>
