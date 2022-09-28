@@ -8,7 +8,7 @@ body{
     border-radius: 10px;
     background-color: #FFF;
     width: 975px;
-    height: 625px;
+    height: 2335px;
     transform: translateX(-50%);
     left: 50%;
     top: 32px;
@@ -142,4 +142,110 @@ body{
     left: 600px;
     font-size: 20px;
     color: #303030;
+}
+
+.description01 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 340px;
+    left: 50%;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.description02 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 400px;
+    left: 200px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.image01{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 260px;
+    left: 395px;
+    border-radius: 6px;
+}
+
+.image02{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 290px;
+    left: 20px;
+    border-radius: 6px;
+}
+
+.description03 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: -40px;
+    left: 770px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.description04 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 175px;
+    left: 200px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.image03{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: -15px;
+    left: 395px;
+    border-radius: 6px;
+}
+
+.image04{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 20px;
+    left: 20px;
+    border-radius: 6px;
+}
+
+.description05 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: -305px;
+    left: 770px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.description06{
+    position: relative;
+    transform: translateX(-50%);
+    top: -50px;
+    left: 50%;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
 }
