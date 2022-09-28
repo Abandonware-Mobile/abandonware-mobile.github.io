@@ -140,4 +140,6 @@ body{
     display: table;
     top: 290px;
     left: 600px;
+    font-size: 20px;
+    color: #303030;
 }
