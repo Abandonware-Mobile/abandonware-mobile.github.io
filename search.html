@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="imgs/icon.ico" />
         <link rel="stylesheet" href="css/navbar.css">
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/search.css">
         <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css'>
         <script type="text/javascript">
             var intervalID = window.setInterval(isMobileDevice, 5000);
@@ -36,13 +36,13 @@
                     <ul class="menu-links">
 
                         <li class="nav-link" title="Abandonware Mobile">
-                            <a href="#">
+                            <a href="index.html">
                                 <i class="fi fi-rr-home icon" ></i>
                             </a>
                         </li>
     
                         <li class="nav-link" title="Rechercher">
-                            <a href="search.html">
+                            <a href="#">
                                 <i class="fi fi-rr-search icon"></i>
                             </a>
                         </li>
@@ -75,10 +75,32 @@
             </div>
         </nav>
 
-        <div class="card">
-            <h1 class="title"><strong>ABANDONWARE MOBILE</strong></h1>
+        <input id="searchbar" class="search-box" type="text" placeholder="Rechercher..." onkeyup="search()">
 
-            <p class="description01">Abandonware Mobile est un site où des jeux mobiles qui ne sont plus en vente sont mis à disposition en téléchargement. ABWM est en cours de développement.</p>
+        <div class="card">
+            <ul id='list'>
+                <a><li class="games">Prince of Persia Classic</li></a>
+                <a href="games/com.ubisoft.princeofpersia.shadowandflame.ggp.html"><li class="games">Prince of Persia The Shadow and the Flame</li></a>
+                <a><li class="games">The Amazing Spider-Man</li></a>
+                <a><li class="games">The Amazing Spider-Man 2</li></a>
+            </ul>
         </div>
+
+        <script>
+            function search() {
+            let input = document.getElementById('searchbar').value
+            input=input.toLowerCase();
+            let x = document.getElementsByClassName('games');
+      
+            for (i = 0; i < x.length; i++) { 
+                if (!x[i].innerHTML.toLowerCase().includes(input)) {
+                    x[i].style.display="none";
+                }
+                else {
+                    x[i].style.display="list-item";                 
+                }
+            }
+        }
+        </script>
     </body>
 </html>

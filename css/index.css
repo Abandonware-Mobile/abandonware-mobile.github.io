@@ -1,0 +1,31 @@
+body{
+    overflow-y: scroll;
+    user-select: none;
+}
+
+.card{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 975px;
+    height: 150px;
+    transform: translateX(-50%);
+    left: 53.5%;
+    top: 32px;
+}
+
+.title{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 10px;
+    left: 50%;
+    color: #303030;
+}
+
+.description01{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 60px;
+    left: 50%;
+    text-align: center;
+}
