@@ -1,0 +1,262 @@
+body{
+    overflow-y: scroll;
+    user-select: none;
+}
+
+.card{
+    position: absolute;
+    border-radius: 10px;
+    background-color: #FFF;
+    width: 975px;
+    height: 2335px;
+    transform: translateX(-50%);
+    left: 53.5%;
+    top: 32px;
+}
+
+.game-icon-div{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.game-icon{
+    width: 256px;
+    height: 256px;
+}
+
+.game-logo-div{
+    position: absolute;
+    top: 30px;
+    left: 296px;
+}
+
+.game-logo{
+    width: 650px;
+    height: 161px;
+}
+
+.download-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-width: 60px;
+    min-height: 50px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    top: 210px;
+    left: 296px;
+    background-color: #E4E9F7;
+}
+
+.share-btn{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    min-width: 60px;
+    min-height: 50px;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    top: 210px;
+    left: 376px;
+    background-color: #E4E9F7;
+}
+
+.playstore-btn{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 456px;
+}
+
+.appstore-btn{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 526px;
+}
+
+.amazonappstore-btn{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 596px;
+}
+
+.microsoftstore-btn{
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 50px;
+    top: 210px;
+    left: 666px;
+}
+
+.microsoftstore-btn .icon,
+.amazonappstore-btn .icon,
+.appstore-btn .icon,
+.playstore-btn .icon{
+    opacity: 0.4;
+    transition: all 0.3s ease;
+}
+
+.share-btn .icon,
+.download-btn .icon{
+    color: #707070;
+    font-size: 20px;
+}
+
+.share-btn:hover,
+.download-btn:hover{
+    background-color: #40BC86;
+    cursor: pointer;
+}
+
+.microsoftstore-btn:hover .icon,
+.amazonappstore-btn:hover .icon,
+.appstore-btn:hover .icon,
+.playstore-btn:hover .icon{
+    opacity: 1;
+}
+
+.share-btn:hover .icon,
+.download-btn:hover .icon{
+    color: #FFF;
+}
+
+#trailer{
+    position: absolute;
+    top: 290px;
+    left: 20px;
+    border-radius: 6px;
+}
+
+#trailer:hover{
+    cursor: pointer;
+}
+
+.options-list ul li{
+    position: relative;
+    list-style: none;
+    display: table;
+    top: 290px;
+    left: 600px;
+    font-size: 20px;
+    color: #303030;
+}
+
+.description01 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 340px;
+    left: 50%;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.description02 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 400px;
+    left: 200px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.image01{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 260px;
+    left: 395px;
+    border-radius: 6px;
+}
+
+.image02{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 290px;
+    left: 20px;
+    border-radius: 6px;
+}
+
+.description03 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: -40px;
+    left: 770px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.description04 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 175px;
+    left: 200px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.image03{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: -15px;
+    left: 395px;
+    border-radius: 6px;
+}
+
+.image04{
+    position: relative;
+    width: 560px;
+    height: 350px;
+    top: 20px;
+    left: 20px;
+    border-radius: 6px;
+}
+
+.description05 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: -305px;
+    left: 770px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.description06{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 2275px;
+    left: 50%;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
