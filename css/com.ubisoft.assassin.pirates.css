@@ -8,7 +8,7 @@ body{
     border-radius: 10px;
     background-color: #FFF;
     width: 975px;
-    height: 3050px;
+    height: 3130px;
     transform: translateX(-50%);
     left: 53.5%;
     top: 32px;
@@ -290,4 +290,12 @@ body{
     font-size: 20px;
     color: #303030;
     text-align: center;
+}
+
+iframe{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 2800px;
+    left: 50%;
+    border-radius: 6px;
 }
