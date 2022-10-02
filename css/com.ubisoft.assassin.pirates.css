@@ -8,7 +8,7 @@ body{
     border-radius: 10px;
     background-color: #FFF;
     width: 975px;
-    height: 2335px;
+    height: 3050px;
     transform: translateX(-50%);
     left: 53.5%;
     top: 32px;
@@ -180,19 +180,19 @@ body{
 }
 
 .image01{
-    position: relative;
+    position: absolute;
     width: 560px;
     height: 350px;
-    top: 260px;
+    top: 780px;
     left: 395px;
     border-radius: 6px;
 }
 
 .image02{
-    position: relative;
+    position: absolute;
     width: 560px;
     height: 350px;
-    top: 290px;
+    top: 1165px;
     left: 20px;
     border-radius: 6px;
 }
@@ -202,7 +202,7 @@ body{
     transform: translateX(-50%);
     list-style: none;
     display: table;
-    top: -40px;
+    top: 650px;
     left: 770px;
     font-size: 15px;
     color: #303030;
@@ -214,7 +214,7 @@ body{
     transform: translateX(-50%);
     list-style: none;
     display: table;
-    top: 175px;
+    top: 800px;
     left: 200px;
     font-size: 15px;
     color: #303030;
@@ -222,19 +222,19 @@ body{
 }
 
 .image03{
-    position: relative;
+    position: absolute;
     width: 560px;
     height: 350px;
-    top: -15px;
+    top: 1550px;
     left: 395px;
     border-radius: 6px;
 }
 
 .image04{
-    position: relative;
+    position: absolute;
     width: 560px;
     height: 350px;
-    top: 20px;
+    top: 1935px;
     left: 20px;
     border-radius: 6px;
 }
@@ -244,19 +244,50 @@ body{
     transform: translateX(-50%);
     list-style: none;
     display: table;
-    top: -305px;
+    top: 955px;
     left: 770px;
     font-size: 15px;
     color: #303030;
     text-align: center;
 }
 
-.description06{
+.description06 ul li{
+    position: relative;
+    transform: translateX(-50%);
+    list-style: none;
+    display: table;
+    top: 1190px;
+    left: 200px;
+    font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.image05{
+    position: absolute;
+    width: 560px;
+    height: 350px;
+    top: 2325px;
+    left: 395px;
+    border-radius: 6px;
+}
+
+.language{
     position: absolute;
     transform: translateX(-50%);
-    top: 2275px;
+    top: 2690px;
     left: 50%;
     font-size: 15px;
+    color: #303030;
+    text-align: center;
+}
+
+.install01{
+    position: absolute;
+    transform: translateX(-50%);
+    top: 2750px;
+    left: 50%;
+    font-size: 20px;
     color: #303030;
     text-align: center;
 }
