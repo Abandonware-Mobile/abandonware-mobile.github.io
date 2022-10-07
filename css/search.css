@@ -18,7 +18,7 @@ body{
     text-align: center;
     font-size: 17px;
     font-weight: 500;
-    cursor: pointer;
+    cursor: crosshair;
     transition: all 0.3s ease;
 }
 
